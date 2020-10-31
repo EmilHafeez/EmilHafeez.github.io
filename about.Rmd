@@ -2,8 +2,4 @@
 title: "About Emil Hafeez"
 ---
 
-# First Section
-
-This is the About Me page, where I describe what this website is, and a little bit about myself.
-
-The assignment calls for reproducing some academic and professional experience here, more or less like a resume.
+![Resumé]("./data/hafeez_abbreviated_cv_10_2020.jpg"){width=100%}

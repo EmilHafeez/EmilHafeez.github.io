@@ -6,7 +6,7 @@ output:
       toc_float: true
 ---
 
-# Welcome
+# Hi! 
 
 This is a test landing page to establish website stability and test layout.
 
