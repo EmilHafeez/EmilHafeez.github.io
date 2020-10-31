@@ -1,9 +1,9 @@
 ---
-title: "About"
+title: "About Emil Hafeez"
 ---
 
-### About this site
+# First Section
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
+This is the About Me page, where I describe what this website is, and a little bit about myself.
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+The assignment calls for reproducing some academic and professional experience here, more or less like a resume.
