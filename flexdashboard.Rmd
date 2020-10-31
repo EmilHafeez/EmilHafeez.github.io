@@ -72,9 +72,6 @@ ny_noaa %>%
     layout(title = 'Monthly Max Temperatures in NY State per Month, 2010',
            yaxis = list(title = 'Max Temperature'),
            xaxis = list(title = 'Month'))
-
-
-
 ```
 
 Column {data-width=350}
