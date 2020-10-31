@@ -98,16 +98,28 @@ ny_noaa %>%
 ### Chart C
 
 ```{r lines plot}
-ny_noaa %>% 
+ny_noaa_sampled = 
+  ny_noaa %>% 
+  sample_n(1000)
+
+ny_noaa_sampled %>% 
   mutate(
-    text_label = str_c("Date:", month, "/", day_of_month, "/", year, "\nMax Temperature:", tmax)
-    ) %>% 
+     month = as.factor(month),
+      month = recode(month, `1` = "Jan", `2` = "Feb", `3` = "Mar", 
+                        `4` = "April", `5` = "May", `6` = "Jun", 
+                        `7` = "Jul", `8` = "August", `9` = "Sep",
+                        `10` = "Oct", `11` = "Nov", `12` = "Dec"),
+     text_label = str_c("Day of the Month:", day_of_month, "\n MM Preciptation:", prcp)) %>%
   group_by(id, year, month, day_of_month) %>%
   plot_ly(
-    x = ~month, y = ~tmax, color = ~month, text = ~text_label, alpha = 0.5,
-    type = "scatter", mode = "lines") %>% 
-    layout(title = 'Daily Max Temperatures per Selected Months, NY State, 2010',
-           yaxis = list(title = 'Max Temperature'))
+    x = ~month, y = ~prcp, 
+    alpha = 1, 
+    text = ~text_label,
+    type = 'bar') %>% 
+    layout(title = 'Millimeters of Precipitation in NY State, 2010',
+           showlegend = FALSE,
+           xaxis = list(title = 'Month',
+           yaxis = list(title = 'MM Precipitation')))
 ```
 
 
