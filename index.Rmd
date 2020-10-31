@@ -6,11 +6,14 @@ output:
       toc_float: true
 ---
 
-# Hi! 
+## Hi! 
 
-This is a test landing page to establish website stability and test layout.
+This is a website produced by Emil Hafeez for P8105 Data Science 1 -- please feel free to take a look around and make yourself at home (page).  
 
-## Subsection
+## Emil's Introduction
 
-This is a subsidiary section with more dazzling information.
+I'm a first-year MS student in the Theory and Methods track within Columbia Mailman's Department of Biostatistics -- and this is my Assignment 4. 
 
+## Website Introduction
+
+You'll notice that beyond this brief introductory landing page, there is an About Me with some brief academic and professional experience, as well as links in the site navigation for my GitHub account, my LinkedIn, and a direct email link. 

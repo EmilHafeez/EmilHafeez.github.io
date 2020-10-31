@@ -2,4 +2,136 @@
 title: "About Emil Hafeez"
 ---
 
-![Resumé]("./data/hafeez_abbreviated_cv_10_2020.jpg"){width=100%}
+## Profile
+
+Decisions-focused evaluator and mixed methods social scientist with experience, education, and goals in program
+evaluation, data science, and implementation. Team-oriented and collaborative, efficient and process-driven. Interest and experience in applying descriptive and inferential statistics for codifying theoretical and programmatic insights and driving program iteration. Emphasis on co-ownership and equity.
+
+Demonstrated project management and support, including process development, IRB coordination, data collection
+training, survey design. Ability in multiple analytics sectors, including marketing, financial, and other data-oriented special projects. Published articles in academic scientific journals and literary essay collections, and has presented as a guest poet. Holds USA, Pakistani, and EU citizenships and is very grateful for his broad international experience.
+
+### Education
+
+#### Master of Science, Biostatistics, Theory and Methods May 2022
+Columbia Mailman School of Public Health, New York, New York
+
+#### Master of Science in Public Health, Health Systems
+Johns Hopkins Bloomberg School of Public Health (JHSPH), Baltimore, MD May 2018
+Certificate, Evaluation: International Health Programs, JHSPH, Baltimore, MD May 2018
+
+#### Bachelor of Science in Applied Psychology
+Magna Cum Laude, University Honors Scholar, Dean’s List
+New York University, New York, NY May 2015
+
+#### Certificate, Philosophy
+University of Cambridge, Cambridge, UK August 2013
+
+### Experience
+
+#### Data Analyst, Consultant September 2020 — Present
+Data Analyst May 2019 — September 2020
+Data Coordinator June 2018 — May 2019
+Pencils of Promise, New York, NY
+
+● Data Science: Builds, implements, and interprets quantitative evaluation models for 3 countries’ literacy programming,
+including multiple linear regression models of 2,000+ survey-structured student tests; conducts visualization and
+communications to international staff; writes publication drafts; role now includes special projects for all departments
+including ARIMA-based panel data financial forecasting, Google Analytics optimizations, Google Ads development,
+SEO research, blockchain research and coordination, and donor-facing programmatic case reports
+
+● Data Science: CRM data administrator responsibilities; creates and maintains input, cleaning, and validation processes
+for Salesforce for ~130 members across all departments; creates reporting and dashboards for dozens of NY- and
+internationally-based users, supports 3 in-country L&E managers on data, including visits to Ghana, Guatemala, and
+Laos; Google Analytics, Google Ads, Google Search Console administration
+
+● Advancing Data Systems: Designs, develops, and maintains sustainable CRM architectures to ensure access to and
+understanding of radically transparent data; builds on existing data structures to improve efficiencies across teams;
+develops data tracking capabilities; support four countries’ usage of software, devices, and L&E systems
+Research Assistant, Lab of Investigation and Development
+Bioinformatics Lab., Universidad Peruana Cayetano Heredia, Lima, Peru June 2017 — June 2018
+
+● Analysis: Implemented data analytics for eye-tracking and pupillometry autism studies: pre-processed 60-variable
+datasets for 161 case-control participants; conducted descriptive statistics for diagnostic sensitivity and specificity,
+efficacy, optimization; developed documentation and presentations for PIs and partnered organizations on methods,
+results, future directions; conducted structural evaluation of Peruvian mental health system for best-practices in this
+diagnostic tool creation [Publication Pending]
+
+● Operations: Provided research logistics assistance (including health worker training and support, logistical coordination, sampling design discussion, IRB approval) for a 700-household cluster-randomized prevalence study
+
+● Supported MATLAB developers: Created gold-standard reference data; analyzed competing model’s frame-by-frame
+analysis for fidelity to gold-standard; liased between computer engineers and psychologists
+
+#### Research Assistant, Evidence Working Group March — October 2017
+Bloomberg American Health Initiative, Johns Hopkins, Baltimore, MD
+
+● Created and presented on a complete catalogue of all JHSPH courses for review by the Evidence Working Group
+leadership, with each course classified by central competencies plus codes for their relevance to public health evidence
+generation activities; advised on future curriculum changes towards strengthening evidence standards
+
+#### Research Assistant, Virtual Population Obesity Prevention (VPOP) March — June 2017
+VPOP Mexico City, Global Obesity Prevention Center, Johns Hopkins, Baltimore, MD
+
+● Extracted baseline probabilities for 17 individual-level variables from dozens of obesity literature reviews and articles to parameterize a virtual population computer model, so as to identify points of leverage for an obesity intervention
+
+#### Book Researcher, Positive Psychology August 2015 — August 2016
+
+Department of Child and Adolescent Psychiatry
+
+Langone Medical Center, New York
+
+o Fielded both authors’ information requests for source material for various book chapters, by conducting and compiling
+literature searches on cognitive and social psychology, and neurophysiology; synthesized findings into concise
+narratives and literature reviews for the author’s use, annotated with advice on articulation, organization, and
+presentation
+
+o Edited 8 chapters’ manuscripts for accuracy, grammar, and narrative style
+Recitation Leader, Science of Happiness Course August 2015 — July 2016
+
+o Planned and lead two weekly hour-long undergraduate psychology recitations of about 30 students each in all course
+material; developed and implemented extracurricular writing tutoring to four students; conducted Teacher Assistant
+responsibilities including facilitating discussions and application of course material, explaining and grading assignments
+
+#### Recitation Leader, Science of Happiness Course August 2015 — July 2016
+
+o Planned and lead two weekly hour-long undergraduate psychology recitations of about 30 students each in all course
+material; developed and implemented extracurricular writing tutoring to four students; conducted Teacher Assistant responsibilities including facilitating discussions and application of course material, explaining and grading assignments
+
+### Skills and Qualifications
+● Advanced Stata programming and implementation in data preprocessing, parametric and nonparametric significance
+testing, correlations, regression modeling, diagnostic metrics including sensitivity and specificity optimization, and basic charts and graphs
+
+● Advanced use of Salesforce, Tangerine, and Apsona (including merge and deduplication relational functions)
+
+● Advanced use with research database searches for literature review
+
+● Intermediate use with reference engines EndNote, RefWorks, & Mendeley to structure and share citations with team
+members
+
+● Basic use of R, RStudio, R Markdown, and the Tidyverse, Git, GitHub, LaTeX, Overleaf
+
+● Basic use of Atlas.ti for qualitative data analysis, experience with Grounded Theory
+
+● G Suite & MS Office proficiencies, Windows and Mac OS X fluency
+
+● Naloxone HCl administration for emergency response to opioid overdose
+
+● Intermediate verbal Spanish
+
+### Select Publications, Presentations, and Reports
+● Hafeez, E. (March 20, 2020). Digital Marketing Functions Overview: Services available from NYC Learning & Evaluation
+[Google Slides presentation]. Pencils of Promise, External Affairs and L&E Teams.
+
+● Hafeez, E. (October 19, 2019). Blockchain and Applications for Maximizing Impact. Graphite: Impact Council Event.
+Pencils of Promise at Brainstation, NYC [presentation].
+
+● Multiple program evaluation results-sharing presentations, both internal PowerPoints and external-facing blog posts. An example is available [here](https://pencilsofpromise.org/schools-out-laos-2018-2019-school-year-student-literacy-analysis/). 
+
+● Noazin, S, Jensen, K., et al. (Manuscript in Review). Autism Detection in Children by Combined Eye Tracking and MCHAT-R in a Resource-Scarce Setting. Journal of Autism and Developmental Disorders. (Hafeez, E. as data analyst
+and writer.)
+
+● Hafeez, E., Donis, P., and Carcelén, A. (March 2018). Visual preference for early detection of autism in Peru. Global
+Health Day, Center for Global Health poster presentation. Baltimore, MD. Similar: Hafeez, E. & Bitterfeld, L. (August
+2017). Autism diagnostic study algorithm selection and initial results. [Poster Presentation]. Lima, Peru.
+
+● Developed, coordinated, and received approval on 2 IRB packets at Universidad Peruana Cayetano Heredia, Johns
+Hopkins Bloomberg School of Public Health, and PRISMA internal review boards. (2017). 
