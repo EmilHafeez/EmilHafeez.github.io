@@ -14,7 +14,7 @@ This is a website produced by Emil Hafeez for P8105 Data Science 1 -- please fee
 
 I'm a first-year MS student in the Theory and Methods track within Columbia Mailman's Department of Biostatistics -- and this is my Assignment 4. 
 
-I live in Brooklyn, NY with my partner Gabriella and out cat, Galleta. 
+I live in Brooklyn, NY with my partner Gabriella and our cat, Galleta. 
 
 ## Website Introduction
 
