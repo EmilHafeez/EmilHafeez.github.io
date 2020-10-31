@@ -1,7 +1,17 @@
 ---
-title: "Holy cow!"
+title: "Emil Hafeez"
+output:
+    html_document:
+      toc: true
+      toc_float: true
+      theme: cerulean
 ---
 
-### I have a webpage!
+# Welcome
 
-And I can put all kinds of stuff on it!
+This is a test landing page to establish website stability and test layout.
+
+## Subsection
+
+This is a subsidiary section with more dazzling information.
+
