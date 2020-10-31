@@ -9,19 +9,22 @@ output:
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
+library(plotly)
 data("ny_noaa")
 
-# rmarkdown::render("dashboard_template.Rmd", output_format = "flexdashboard::flex_dashboard")
-```
+#Theme
+theme_set(theme_minimal() + theme(legend.position = "bottom"))
+options(
+  ggplot2.continuous.colour = "viridis",
+  ggplot2.continuous.fill = "viridis"
+)
 
-Column {data-width=650}
------------------------------------------------------------------------
+scale_colour_discrete = scale_colour_viridis_d
+scale_fill_discrete = scale_fill_viridis_d
 
-### Chart A
-
-```{r Scatterplot}
+## dataset prep
 ny_noaa =
-ny_noaa %>% 
+  ny_noaa %>% 
   janitor::clean_names() %>% 
   separate(date, into = c("year", "month", "day_of_month")) %>% 
   mutate(
@@ -35,15 +38,34 @@ ny_noaa %>%
         prcp = (prcp / 10),
         tmax = (tmax / 10),
         tmin = (tmin / 10),
-        )
+        ) %>% 
+  filter(year %in% c(2010))
+
+#for testing:
+# rmarkdown::render("dashboard_template.Rmd", output_format = "flexdashboard::flex_dashboard")
+
+```
+
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r boxplot}
 ny_noaa %>% 
-  count(snow) %>% 
-	arrange(desc(n)) %>% 
-filter(year %in% 2000:2010)
-
-ny_noaa
-
-
+  mutate(
+    text_label = str_c("Date:", month, "/", day_of_month, "/", year, "\nMax Temperature:", tmax)
+    ) %>% 
+  mutate(month = as.factor(month),
+         month = recode(month, `1` = "January", `4` = "April", `8` = "August")) %>% 
+  group_by(id, year, month, day_of_month) %>%
+  plot_ly(
+    x = ~day_of_month, y = ~tmax, color = ~month, text = ~text_label, alpha = 0.5,
+    type = "scatter", mode = "markers") %>% 
+    layout(title = 'Daily Max Temperatures per Selected Months, NY State, 2010',
+           yaxis = list(title = 'Max Temperature'))
 ```
 
 Column {data-width=350}
@@ -51,13 +73,36 @@ Column {data-width=350}
 
 ### Chart B
 
-```{r}
-
+```{r scatter plot}
+ny_noaa %>% 
+  mutate(
+    text_label = str_c("Date:", month, "/", day_of_month, "/", year, "\nMax Temperature:", tmax)
+    ) %>% 
+  filter(month %in% c(1, 4, 8)) %>% 
+  mutate(month = as.factor(month),
+         month = recode(month, `1` = "January", `4` = "April", `8` = "August")) %>% 
+  group_by(id, year, month, day_of_month) %>%
+  plot_ly(
+    x = ~day_of_month, y = ~tmax, color = ~month, text = ~text_label, alpha = 0.5,
+    type = "scatter", mode = "markers") %>% 
+    layout(title = 'Daily Max Temperatures per Selected Months, NY State, 2010',
+           yaxis = list(title = 'Max Temperature'))
 ```
 
 ### Chart C
 
-```{r}
-
+```{r lines plot}
+ny_noaa %>% 
+  mutate(
+    text_label = str_c("Date:", month, "/", day_of_month, "/", year, "\nMax Temperature:", tmax)
+    ) %>% 
+  group_by(id, year, month, day_of_month) %>%
+  plot_ly(
+    x = ~month, y = ~tmax, color = ~month, text = ~text_label, alpha = 0.5,
+    type = "scatter", mode = "lines") %>% 
+    layout(title = 'Daily Max Temperatures per Selected Months, NY State, 2010',
+           yaxis = list(title = 'Max Temperature'))
 ```
+
+
 
