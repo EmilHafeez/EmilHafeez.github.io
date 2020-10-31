@@ -1,13 +1,14 @@
-name: "Yay internet!"
+name: "Site YML"
 output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
+    - text: "About Me"
       href: about.html
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: mailto:<eh2928@columbia.cumc.com>
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: http://github.com/EmilHafeez/
 output:
-  html_document
+  html_document:
+      theme: cerulean
