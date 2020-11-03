@@ -5,7 +5,7 @@ navbar:
   right:
     - text: "About Me"
       href: about.html
-    - text: "Flex Dashboard"
+    - text: "Dashboard"
       href: dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<eh2928@columbia.cumc.com>
