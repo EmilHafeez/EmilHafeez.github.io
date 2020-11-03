@@ -18,4 +18,4 @@ I live in Brooklyn, NY with my partner Gabriella and our cat, Galleta.
 
 ## Website Introduction
 
-You'll notice that beyond this brief introductory landing page, there is an About Me with some brief academic and professional experience, as well as links in the site navigation for my GitHub account, my LinkedIn, and a direct email link. 
+You'll notice that beyond this brief introductory landing page, there is an About Me with some brief academic and professional experience, as well as links in the site navigation for my GitHub account, my LinkedIn, and a direct email link. I also made a Flex Dashboard for some NY weather data, check it out. 
